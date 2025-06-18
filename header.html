@@ -11,18 +11,16 @@
     }
 
     .container {
-      width: 400px;
+      width: 800px;
       margin: 40px auto;
       border: 1px solid #ccc;
 
-      
       display: flex;
       flex-direction: column;
     }
 
     .margin-bar {
-      height: 50px;
-      color: white;
+      height: 200px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -30,15 +28,22 @@
     }
 
     .top-margin {
-      background-color: #e74c3c; 
+      background-color: #d96221; 
+      color: white;
     }
 
     .middle-margin {
-      background-color: #3498db; 
+      background-color: #eaeff3; 
+      color: #333;
     }
 
     .bottom-margin {
-      background-color: #2ecc71; 
+      background-color: #0dd425; 
+      color: white;
+    }
+
+    .ashoka-chakra {
+      height: 100px; 
     }
   </style>
 </head>
@@ -46,7 +51,9 @@
 
   <div class="container">
     <div class="margin-bar top-margin">1</div>
-    <div class="margin-bar middle-margin">2</div>
+    <div class="margin-bar middle-margin">
+      <img class="ashoka-chakra" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/1200px-Ashoka_Chakra.svg.png" alt="Ashoka Chakra">
+    </div>
     <div class="margin-bar bottom-margin">3</div>
   </div>
 
