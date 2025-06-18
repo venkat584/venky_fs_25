@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Top, Middle, Bottom Margins</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 400px;
+      margin: 40px auto;
+      border: 1px solid #ccc;
+
+      
+      display: flex;
+      flex-direction: column;
+    }
+
+    .margin-bar {
+      height: 50px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .top-margin {
+      background-color: #e74c3c; 
+    }
+
+    .middle-margin {
+      background-color: #3498db; 
+    }
+
+    .bottom-margin {
+      background-color: #2ecc71; 
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="margin-bar top-margin">1</div>
+    <div class="margin-bar middle-margin">2</div>
+    <div class="margin-bar bottom-margin">3</div>
+  </div>
+
+</body>
+</html>
