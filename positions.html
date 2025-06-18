@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+  <style>
+    /* Make header fixed at the top */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      background-color: #3498db;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    /* Add top margin to content to avoid being hidden under fixed header */
+    main {
+      margin-top: 70px; /* slightly more than header height */
+      padding: 0 20px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Fixed Header</header>
+
+  <main>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum ac nibh convallis viverra. 
+      Maecenas nec scelerisque velit. Suspendisse bibendum convallis nibh, sed aliquet tortor sagittis non. 
+      Fusce dapibus metus at elit tristique, a faucibus nulla efficitur. Donec mollis faucibus lectus, at 
+      fermentum eros pulvinar sed. Vestibulum suscipit, leo at convallis dignissim, risus urna convallis mi, 
+      sed tempor nunc libero id velit. Mauris at sem eu ex blandit efficitur. Praesent ut lobortis elit. 
+      Integer imperdiet efficitur urna at lacinia. Nullam vel erat nec arcu faucibus convallis sed et odio. 
+      Aenean blandit, leo eget feugiat pulvinar, turpis urna convallis enim, eu placerat elit nunc vitae sem. 
+      Sed at semper urna, sed congue lorem. Nullam vitae odio nec purus lobortis accumsan et a nunc. 
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum ac nibh convallis viverra. 
+      Maecenas nec scelerisque velit. Suspendisse bibendum convallis nibh, sed aliquet tortor sagittis non. 
+      Fusce dapibus metus at elit tristique, a faucibus nulla efficitur. Donec mollis faucibus lectus, at 
+      fermentum eros pulvinar sed. Vestibulum suscipit, leo at convallis dignissim, risus urna convallis mi, 
+      sed tempor nunc libero id velit. Mauris at sem eu ex blandit efficitur. Praesent ut lobortis elit. 
+      Integer imperdiet efficitur urna at lacinia. Nullam vel erat nec arcu faucibus convallis sed et odio. 
+      Aenean blandit, leo eget feugiat pulvinar, turpis urna convallis enim, eu placerat elit nunc vitae sem. 
+      Sed at semper urna, sed congue lorem. Nullam vitae odio nec purus lobortis accumsan et a nunc. 
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    </p>
+  </main>
+
+</body>
+</html>
+
+</head>
+<body>
