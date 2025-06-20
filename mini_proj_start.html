@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <style>
+    .header {
+      display: flex;
+      width: 100%;
+      height: 75px;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #7d6eea 0%, #00f2fe 100%);
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      color: rgb(237, 230, 230);
+      font-size: 24px;
+      font-weight: bold;
+      gap: 20px;
+    }
+    .block2 {
+        display: flex;
+        flex-direction: row;
+    }
+    .sidebar {
+        flex:0 0 100px;
+    }
+
+    .main {
+        flex:1;
+    }
+    
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+        <div><a href="">Home</a></div>
+        <div><a href="">About-Us</a></div>
+        <div><a href="">Contact-Us</a></div>
+    </div>
+    </header>
+    
+    <div class="block2">
+        <aside>Sidebar</aside>
+        
+        <main class="block3">
+            <section class="content">Content</section>
+            <footer>Footer</Footer>
+            </main>
+        </body>
+        </html>

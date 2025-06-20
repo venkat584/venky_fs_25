@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Top, Middle, Bottom Margins</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 800px;
+      margin: 40px auto;
+      border: 1px solid #ccc;
+
+      display: flex;
+      flex-direction: column;
+    }
+
+    .margin-bar {
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .top-margin {
+      background-color: #d96221; 
+      color: white;
+    }
+
+    .middle-margin {
+      background-color: #eaeff3; 
+      color: #333;
+    }
+
+    .bottom-margin {
+      background-color: #0dd425; 
+      color: white;
+    }
+
+    .ashoka-chakra {
+      height: 100px; 
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="margin-bar top-margin">1</div>
+    <div class="margin-bar middle-margin">
+      <img class="ashoka-chakra" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Ashoka_Chakra.svg/1200px-Ashoka_Chakra.svg.png" alt="Ashoka Chakra">
+    </div>
+    <div class="margin-bar bottom-margin">3</div>
+  </div>
+
+</body>
+</html>
