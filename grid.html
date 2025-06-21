@@ -1,0 +1,33 @@
+<!DOCTYPE html>Add commentMore actions
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <style>
+    .container {
+        display: grid;
+        grid-template-row: 100px 1fr;
+        height: 100%;
+        background-color: aqua;
+        gap: 20px;
+    }
+
+    .header {
+        background-color: {% block  %}{% endblock %}
+    }
+    .main {
+        background-color: brown;
+    }
+    
+  </style>
+</head>
+<body>
+<div class="header">
+<a href="">Home</a>
+<a href="">About Us</a>
+<a href="">Contact Us</a>
+</div>
+</body>
+</html>
+    
